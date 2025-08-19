@@ -1,0 +1,206 @@
+/* Features Section */
+.features {
+    padding: 10px 0;
+    background-color: var(--bg-primary);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom:  -20px;
+}
+
+.feature:last-child {
+    margin-bottom: 0;
+}
+
+.feature.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature h2 {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    margin-bottom: 24px;
+}
+
+.feature p {
+    font-size: 21px;
+    line-height: 1.381;
+    color: var(--text-secondary);
+}
+
+.iphone-lockup {
+    position: relative;
+    flex: 1;
+}
+
+.feature-image {
+    padding: 20px 145px;   
+}
+
+.feature-image-double {
+    position: relative;
+    padding: 20px 145px;
+    display: flex;
+    gap: 40px;
+    overflow: visible;
+}
+
+/* Position first device normally, second device extends right */
+.feature:not(.reverse) .feature-image-double .iphone-lockup:first-child {
+    flex-shrink: 0;
+}
+
+.feature:not(.reverse) .feature-image-double .iphone-lockup:last-child {
+    position: absolute;
+    left: calc(145px + 330px + 40px);
+    top: 20px;
+}
+
+/* For reverse: position second device normally, first device extends left */
+.feature.reverse .feature-image-double {
+    justify-content: flex-end;
+}
+
+.feature.reverse .feature-image-double .iphone-lockup:last-child {
+    flex-shrink: 0;
+}
+
+.feature.reverse .feature-image-double .iphone-lockup:first-child {
+    position: absolute;
+    right: calc(145px + 330px + 40px);
+    top: 20px;
+}
+
+.iphone-shadow {
+    position: absolute;
+    top: 10px;
+    left: -12px;
+    height: var(--s-height);
+    --s-height: 774px;
+}
+
+.iphone-shadow img {
+    height: 100%;
+}
+
+.iphone-screen {
+    display: block;
+    width: var(--s-width);
+    height: var(--s-height);
+    --s-width: 296px;
+    --s-height: 644px;
+    top: 16px;
+    left: 17px;
+    position: absolute;
+    z-index: 2;
+}
+
+.iphone-hardware {
+    display: block;
+    width: var(--p-width);
+    height: var(--p-height);
+    --p-width: 330px;
+    --p-height: 675px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.iphone-hardware img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive Features - Tablet */
+@media (max-width: 1068px) {
+    .feature {
+        flex-direction: column;
+        gap: 48px;
+        margin-bottom: 120px;
+    }
+    
+    .feature.reverse {
+        flex-direction: column;
+    }
+    
+    .feature-image-double {
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .feature:not(.reverse) .feature-image-double .iphone-lockup:last-child,
+    .feature.reverse .feature-image-double .iphone-lockup:first-child {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+    }
+    
+    .iphone-hardware {
+        --p-width: 236px;
+        --p-height: 482px;
+    }
+    
+    .iphone-screen {
+        --s-width: 212px;
+        --s-height: 461px;
+        top: 11px;
+        left: 12px;
+    }
+
+    .iphone-shadow {
+        position: absolute;
+        top: 0px;
+        left: -12px;
+        --s-height: 556px;
+    }
+}
+
+/* Responsive Features - Mobile */
+@media (max-width: 734px) {
+    .feature-image-double {
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px;
+        align-items: center;
+    }
+    
+    .iphone-hardware {
+        --p-width: 176px;
+        --p-height: 360px;
+    }
+
+    .iphone-screen {
+        --s-width: 158px;
+        --s-height: 344px;
+        top: 8px;
+        left: 9px;
+    }
+
+    .iphone-shadow {
+        position: absolute;
+        top: 0px;
+        left: -8px;
+        --s-height: 412px;
+    }
+
+    .feature h2 {
+        font-size: 36px;
+    }
+    
+    .feature p {
+        font-size: 19px;
+    }
+}
