@@ -1,13 +1,10 @@
-# Jekyll configuration for Weeka website
 title: Weeka - Visual Weekly Planner for Families
 description: Transform daily negotiations into visual agreements. A simple weekly planner that brings structure and fairness to family life.
-url: "https://weeka.github.io"
+url: "https://weeka.app"
 baseurl: ""
 
-# Build settings
 markdown: kramdown
 
-# Exclude files from build
 exclude:
   - README.md
   - feature_img_resizer.sh
