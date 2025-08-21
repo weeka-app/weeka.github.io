@@ -36,27 +36,24 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Parallax effect for hero image (moves up on scroll)
+// Parallax effect for hero image (moves up and scales down on scroll)
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
-    const heroDevices = document.querySelector('.hero-devices');
+    const heroImage = document.querySelector('.hero-image');
+    const heroDevice = document.querySelector('.hero-device');
     const heroSection = document.querySelector('.hero');
     
-    if (heroDevices && heroSection) {
+    if (heroImage && heroSection) {
         const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
-        const isMobile = window.innerWidth <= 768;
-        
-        // Only apply parallax when hero is visible
+
         if (scrolled < heroBottom) {
-            if (isMobile) {
-                // Smaller movement on mobile: 40px to 20px
-                const parallaxOffset = Math.max(40 - (scrolled * 0.05), 20);
-                heroDevices.style.transform = `translateY(${parallaxOffset}px)`;
-            } else {
-                // Desktop: 80px to 40px
-                const parallaxOffset = Math.max(80 - (scrolled * 0.1), 40);
-                heroDevices.style.transform = `translateY(${parallaxOffset}px)`;
-            }
+            const maxScroll = heroBottom - window.innerHeight / 2;
+            const scrollProgress = Math.min(scrolled / maxScroll, 1);
+            const scale = 1 - (scrollProgress * 0.1); // Scale from 1 to 0.7
+
+            const parallaxOffset = Math.max(80 - (scrolled * 0.1), -100);
+            heroImage.style.transform = `translateY(${parallaxOffset}px) translateX(4.5%)`;
+            heroDevice.style.transform = `scale(${scale})`;
         }
     }
 });

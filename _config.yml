@@ -1,0 +1,10 @@
+title: Weeka - Visual Weekly Planner for Families
+description: Transform daily negotiations into visual agreements. A simple weekly planner that brings structure and fairness to family life.
+url: "https://weeka.app"
+baseurl: ""
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - feature_img_resizer.sh
