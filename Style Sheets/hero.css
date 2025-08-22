@@ -19,13 +19,11 @@
 .app-icon {
     width: 100px;
     height: 100px;
-    margin-bottom: 20px;
-    border-radius: 22%;
+    filter:drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
 }
 
 .app-name {
-    font-size: 28px;
-    font-weight: 600;
+    padding-top: 10px;
     margin-bottom: 16px;
     color: var(--text-primary);
 }

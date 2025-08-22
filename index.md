@@ -11,8 +11,11 @@ scripts:
 
 <section class="hero">
     <div class="hero-content">
-        <img src="Images/weeka-icon.png" alt="Weeka app icon" class="app-icon">
-        <h3 class="app-name">Weeka</h3>
+        <picture class="app-icon">
+            <source srcset="Images/logo.png, Images/logo@2x.png 2x">
+            <img src="Images/logo.png" alt="">
+        </picture>
+        <h3 class="app-name font-semibold">Weeka</h3>
         <h1>Family life.<br>Organized visually.</h1>
         <p class="hero-subtitle">Turn daily negotiations into visual agreements.<br>Weeka brings the proven kindergarten planning system to your home.</p>
         <a href="https://apps.apple.com" class="btn btn-primary">
