@@ -3,6 +3,7 @@ layout: default
 title: Weeka - Visual Weekly Planner for Families
 description: Transform daily negotiations into visual agreements. A simple weekly planner that brings structure and fairness to family life.
 additional_css:
+  - hero.css
   - features.css
 scripts:
   - script.js
@@ -22,12 +23,20 @@ scripts:
         </a>
     </div>
     <div class="hero-image">
-        <picture class="hero-device">
-            <source srcset="Images/hero_small.png, Images/hero_small@2x.png 2x" media="(max-width:734px)">
-            <source srcset="Images/hero_medium.png, Images/hero_medium@2x.png 2x" media="(max-width:1068px)">
-            <source srcset="Images/hero_large.png, Images/hero_large@2x.png 2x" media="(min-width:0px)">
-            <img src="Images/hero_large.png" alt="Weeka app on iPhone and iPad">
-        </picture>
+        <div class="hero-image-lockup">
+            <picture class="hero-shadow">
+                <source srcset="Images/hero/hero_img_shadow_small.png, Images/hero/hero_img_shadow_small@2x.png 2x" media="(max-width:734px)">
+                <source srcset="Images/hero/hero_img_shadow_medium.png, Images/hero/hero_img_shadow_medium@2x.png 2x" media="(max-width:1068px)">
+                <source srcset="Images/hero/hero_img_shadow_large.png, Images/hero/hero_img_shadow_large@2x.png 2x" media="(min-width:0px)">
+                <img src="Images/hero/hero_img_shadow_large.png" alt="">
+            </picture>
+            <picture class="hero-device">
+                <source srcset="Images/hero/hero_img_small.png, Images/hero/hero_img_small@2x.png 2x" media="(max-width:734px)">
+                <source srcset="Images/hero/hero_img_medium.png, Images/hero/hero_img_medium@2x.png 2x" media="(max-width:1068px)">
+                <source srcset="Images/hero/hero_img_large.png, Images/hero/hero_img_large@2x.png 2x" media="(min-width:0px)">
+                <img src="Images/hero/hero_img_large.png" alt="Weeka app on iPhone and iPad">
+            </picture>
+        </div>
     </div>
 </section>
 

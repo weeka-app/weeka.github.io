@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-bottom:  -20px;
+    margin-bottom:  -60px;
 }
 
 .feature:last-child {
@@ -43,7 +43,7 @@
 }
 
 .feature-image {
-    padding: 20px 145px;   
+    padding: 20px 145px;
 }
 
 .feature-image-double {
@@ -127,7 +127,7 @@
     .feature {
         flex-direction: column;
         gap: 48px;
-        margin-bottom: 120px;
+        margin-bottom: 30px;
     }
     
     .feature.reverse {
