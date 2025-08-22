@@ -1,0 +1,149 @@
+/* Hero Section */
+.hero {
+    margin-top: var(--nav-height);
+    padding: 80px 0 40px;
+    background-color: var(--bg-primary);
+    text-align: center;
+    position: relative;
+    overflow: visible;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto 10px;
+    padding: 0 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.app-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 22%;
+}
+
+.app-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.hero h1 {
+    font-size: 72px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin-bottom: 24px;
+}
+
+.hero-subtitle {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-image {
+    position: relative;
+    padding-top: 100px;
+    z-index: 1;
+    overflow: visible;
+}
+
+.hero-image-lockup {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 0;
+}
+
+.hero-shadow img {
+    display: block;
+}
+
+.hero-device {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-device img {
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 1068px) {
+    .hero-image-lockup {
+        max-width: 600px;
+    }
+
+    .hero-image {
+        position: relative;
+        padding-top: 60px;
+    }
+
+    .hero-shadow {
+        top: -10px;
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+    
+    .app-icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 734px) {
+    .hero-image-lockup {
+        max-width: 300px;
+    }
+
+    .hero-image {
+        padding-top: 40px;
+    }
+
+    .hero-shadow {
+        top: -5px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+    
+    .hero-subtitle {
+        font-size: 19px;
+    }
+    
+    .app-icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 16px;
+    }
+    
+    .app-name {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-content {
+        margin-bottom: 10px;
+    }
+
+    .hero-cta {
+        justify-content: center;
+    }
+}
