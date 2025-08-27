@@ -4,15 +4,15 @@ title: Privacy Policy - Weeka
 description: Privacy Policy for Weeka - Zero-Collection Visual Weekly Planner
 additional_css:
   - privacy.css
+  - hero.css
 scripts:
   - script.js
 ---
 
-<section class="legal-hero">
-    <div class="container">
-        <h1>PRIVACY POLICY</h1>
-        <p class="legal-subtitle">WEEKA APPLICATION</p>
-        <p class="legal-date">Effective Date: January 2025<br>Last Updated: January 2025</p>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Privacy Policy</h1>
+        <p class="hero-subtitle">WEEKA APPLICATION<br>Effective Date: Aug 2025<br>Last Updated: Aug 2025</p>
     </div>
 </section>
 

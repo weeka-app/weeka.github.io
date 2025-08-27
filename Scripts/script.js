@@ -61,3 +61,67 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// FAQ Accordion functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const accordionButtons = document.querySelectorAll('.accordion-button');
+    
+    accordionButtons.forEach(button => {
+        // Enable the button (Apple has them disabled by default)
+        button.removeAttribute('disabled');
+        button.removeAttribute('aria-disabled');
+        
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const expanded = this.getAttribute('aria-expanded') === 'true';
+            const item = this.closest('.accordion-item');
+            const tray = document.getElementById(this.getAttribute('aria-controls'));
+            const expandAnimation = this.querySelector('[data-accordion-animate="expand"]');
+            const collapseAnimation = this.querySelector('[data-accordion-animate="collapse"]');
+            
+            // Toggle state
+            this.setAttribute('aria-expanded', !expanded);
+            
+            if (!expanded) {
+                // Expand
+                item.classList.add('expanded');
+                if (tray) {
+                    tray.style.height = 'auto';
+                    const height = tray.scrollHeight;
+                    tray.style.height = '0';
+                    // Force reflow
+                    tray.offsetHeight;
+                    tray.style.height = height + 'px';
+                    tray.style.transitionDuration = '400ms';
+                    
+                    // After animation, set to auto for responsive behavior
+                    setTimeout(() => {
+                        tray.style.height = 'auto';
+                    }, 400);
+                }
+                
+                // Trigger SVG animation
+                if (expandAnimation) {
+                    expandAnimation.beginElement();
+                }
+            } else {
+                // Collapse
+                item.classList.remove('expanded');
+                if (tray) {
+                    const height = tray.scrollHeight;
+                    tray.style.height = height + 'px';
+                    // Force reflow
+                    tray.offsetHeight;
+                    tray.style.height = '0';
+                    tray.style.transitionDuration = '400ms';
+                }
+                
+                // Trigger SVG animation
+                if (collapseAnimation) {
+                    collapseAnimation.beginElement();
+                }
+            }
+        });
+    });
+});

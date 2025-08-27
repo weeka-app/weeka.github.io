@@ -4,14 +4,15 @@ title: FAQ - Weeka
 description: Frequently asked questions about Weeka - Visual Weekly Planner for Families
 additional_css:
   - faq.css
+  - hero.css
 scripts:
   - script.js
 ---
 
-<section class="faq-hero">
-    <div class="container">
-        <h1>FREQUENTLY ASKED QUESTIONS</h1>
-        <p class="faq-subtitle">Everything you need to know about Weeka</p>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Questions? Answers.</h1>
+        <p class="hero-subtitle">Everything you need to know about Weeka</p>
     </div>
 </section>
 
@@ -22,30 +23,122 @@ scripts:
                 <h2 class="category-title">Getting Started</h2>
             </div>
             
-            <div class="faq-item">
-                <h3 class="faq-question">What is Weeka?</h3>
-                <p class="faq-answer">Weeka is a visual weekly planner designed specifically for families. It helps parents and children create clear, visual schedules for activities, treats, and routines throughout the week. By using colorful icons and simple interfaces, even non-reading children can understand and follow their weekly plans.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">How does Weeka help reduce daily negotiations?</h3>
-                <p class="faq-answer">By establishing a visual weekly routine that everyone can see and understand, Weeka eliminates the constant "Can I have...?" questions. Children know exactly when they'll have screen time, treats, or special activities, reducing anxiety and creating clear expectations for the whole family.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">Is Weeka suitable for non-reading children?</h3>
-                <p class="faq-answer">Absolutely! Weeka was designed with pre-readers in mind. Each activity is represented by a colorful, intuitive icon that children can easily recognize. This visual approach is inspired by kindergarten planning systems that have been proven effective for young children.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">What devices does Weeka work on?</h3>
-                <p class="faq-answer">Weeka is currently available as an iOS app for iPhone and iPad. The app is optimized for both devices, with the iPad version offering an expanded view perfect for family planning sessions.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">What iOS versions does Weeka support?</h3>
-                <p class="faq-answer">Weeka always supports the latest iOS version and we work hard to maintain compatibility with older versions too. Currently, Weeka supports iOS 16 and later, ensuring that most iPhone and iPad users can enjoy the app. We're committed to supporting as many devices as possible while taking advantage of the latest iOS features.</p>
-            </div>
+            <ul class="accordion faq-list" role="list">
+                <li class="accordion-item" data-accordion-item="accordion-item-0">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-0-tray" id="accordion-item-0-button" aria-expanded="false">
+                            <span class="accordion-title-text">What is Weeka?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-0-tray" aria-labelledby="accordion-item-0-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Weeka is a visual weekly planner designed specifically for families. It helps parents and children create clear, visual schedules for activities, treats, and routines throughout the week. By using colorful icons and simple interfaces, even non-reading children can understand and follow their weekly plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-1">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-1-tray" id="accordion-item-1-button" aria-expanded="false">
+                            <span class="accordion-title-text">How does Weeka help reduce daily negotiations?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-1-tray" aria-labelledby="accordion-item-1-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>By establishing a visual weekly routine that everyone can see and understand, Weeka eliminates the constant "Can I have...?" questions. Children know exactly when they'll have screen time, treats, or special activities, reducing anxiety and creating clear expectations for the whole family.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-2">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-2-tray" id="accordion-item-2-button" aria-expanded="false">
+                            <span class="accordion-title-text">Is Weeka suitable for non-reading children?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-2-tray" aria-labelledby="accordion-item-2-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Absolutely! Weeka was designed with pre-readers in mind. Each activity is represented by a colorful, intuitive icon that children can easily recognize. This visual approach is inspired by kindergarten planning systems that have been proven effective for young children.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-3">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-3-tray" id="accordion-item-3-button" aria-expanded="false">
+                            <span class="accordion-title-text">What devices does Weeka work on?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-3-tray" aria-labelledby="accordion-item-3-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Weeka is currently available as an iOS app for iPhone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-4">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-4-tray" id="accordion-item-4-button" aria-expanded="false">
+                            <span class="accordion-title-text">What iOS versions does Weeka support?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-4-tray" aria-labelledby="accordion-item-4-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Weeka always supports the latest iOS version and works hard to maintain compatibility with older versions. Currently, Weeka supports iOS 16 and later, ensuring that most iPhone users can enjoy the app. We're committed to supporting as many devices as possible while taking full advantage of the latest iOS features.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
 
         <div class="faq-category">
@@ -53,40 +146,122 @@ scripts:
                 <h2 class="category-title">Features & Functionality</h2>
             </div>
             
-            <div class="faq-item">
-                <h3 class="faq-question">Can I print the weekly calendars?</h3>
-                <p class="faq-answer">Yes! Weeka includes a beautiful print feature that creates fridge-ready calendars. You can print weekly views that maintain all the colorful icons and clear layout, making it easy for the whole family to check the schedule throughout the day.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">How does Weeka work for families with multiple children?</h3>
-                <p class="faq-answer">Weeka allows you to create and manage activities for your entire family in one place. You can organize different activities for different family members and view them all in a unified weekly calendar, making it easy to coordinate everyone's schedules.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">Can I customize the activity icons?</h3>
-                <p class="faq-answer">Currently, Weeka offers a comprehensive set of pre-designed icons for common activities like sleep, meals, school, sports, screen time, and treats. We're constantly adding new icons based on user feedback to cover more activities.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">How do recurring activities work?</h3>
-                <p class="faq-answer">When creating an activity, you can set it to repeat weekly, making it easy to establish consistent routines. For example, if swimming lessons are every Tuesday at 4 PM, you only need to set it up once, and it will appear every week automatically.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">How can I share my weekly schedule with others?</h3>
-                <p class="faq-answer">Weeka allows you to export one week of your schedule as a PDF file, which you can then share using your device's standard sharing features. You can send it via email, message, or print it directly. This is perfect for sharing schedules with caregivers, teachers, or other family members.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">Do I need an internet connection to use Weeka?</h3>
-                <p class="faq-answer">No! Weeka works completely offline. All features including creating schedules, managing activities, and printing calendars work without any internet connection. The app is designed to be fully functional on your device without requiring any network access.</p>
-            </div>
-        </div>
-
-        <div class="privacy-highlight">
-            <h4>🔒 Privacy First Design</h4>
-            <p>Weeka operates on a zero-collection architecture. We don't collect any data, require no accounts, and have no servers. Your family's information stays exclusively on your device.</p>
+            <ul class="faq-list">
+                <li class="accordion-item" data-accordion-item="accordion-item-5">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-5-tray" id="accordion-item-5-button" aria-expanded="false">
+                            <span class="accordion-title-text">Can I print the weekly calendars?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-5-tray" aria-labelledby="accordion-item-5-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Yes! Weeka includes a beautiful print feature that creates fridge-ready calendars. You can print weekly views that maintain all the colorful icons and clear layout, making it easy for the whole family to check the schedule throughout the day.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-6">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-6-tray" id="accordion-item-6-button" aria-expanded="false">
+                            <span class="accordion-title-text">Can I customize the activity icons?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-6-tray" aria-labelledby="accordion-item-6-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Currently, Weeka offers a comprehensive set of pre-designed icons for common activities like sleep, meals, school, sports, screen time, and treats. We're constantly adding new icons based on user feedback to cover more activities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-8">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-8-tray" id="accordion-item-8-button" aria-expanded="false">
+                            <span class="accordion-title-text">How do recurring activities work?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-8-tray" aria-labelledby="accordion-item-8-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>When creating an activity, you can set it to repeat weekly, making it easy to establish consistent routines. For example, if swimming lessons are every Tuesday at 4 PM, you only need to set it up once, and it will appear every week automatically.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-9">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-9-tray" id="accordion-item-9-button" aria-expanded="false">
+                            <span class="accordion-title-text">How can I share my weekly schedule with others?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-9-tray" aria-labelledby="accordion-item-9-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Weeka lets you export a weekly schedule as a PDF, which you can easily share using your device's standard options. Send it via email, message, or print it directly. It's perfect for sharing schedules with babysitters, teachers, or other family members.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-10">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-10-tray" id="accordion-item-10-button" aria-expanded="false">
+                            <span class="accordion-title-text">Do I need an internet connection to use Weeka?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-10-tray" aria-labelledby="accordion-item-10-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>No! Weeka works completely offline. All features including creating schedules, managing activities, and printing calendars work without any internet connection. The app is designed to be fully functional on your device without requiring any network access. An internet connection is only needed if you want to share your schedule with others.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
 
         <div class="faq-category">
@@ -94,25 +269,76 @@ scripts:
                 <h2 class="category-title">Privacy & Data</h2>
             </div>
             
-            <div class="faq-item">
-                <h3 class="faq-question">Is my family's data private and secure?</h3>
-                <p class="faq-answer">Absolutely! Weeka operates on a zero-collection architecture. Your family's data is stored exclusively on your device - we have no servers, require no accounts, and collect absolutely no data. Not even anonymous analytics. When you delete the app, all data is permanently removed. This isn't just a promise - it's technically impossible for us to access your data. See our <a href="/privacy">Privacy Policy</a> for complete details.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">Can I backup or sync my data?</h3>
-                <p class="faq-answer">Your data is stored locally on your device and can be backed up through your device's standard backup mechanisms. You can also export your weekly schedules as PDF files for safekeeping or sharing. If you delete the app, all data will be permanently removed, so we recommend exporting important schedules if needed.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">What happens to my data if I uninstall the app?</h3>
-                <p class="faq-answer">When you uninstall Weeka, all your data is permanently deleted from your device. Since we don't store any data on servers, there's no way to recover it once deleted. This is by design to ensure your complete privacy and data ownership. Make sure to export any important schedules as PDFs before uninstalling if you want to keep them.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">What age rating does Weeka have?</h3>
-                <p class="faq-answer">Weeka is rated 4+ on the App Store, meaning it's suitable for all ages and contains no objectionable content. The app is designed to be family-friendly and safe for children to view and interact with under parental guidance.</p>
-            </div>
+            <ul class="faq-list">
+                <li class="accordion-item" data-accordion-item="accordion-item-11">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-11-tray" id="accordion-item-11-button" aria-expanded="false">
+                            <span class="accordion-title-text">Is my family's data private and secure?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-11-tray" aria-labelledby="accordion-item-11-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Absolutely! Weeka operates on a zero-collection architecture. Your family's data is stored exclusively on your device - we have no servers, require no accounts, and collect absolutely no data. Not even anonymous analytics. When you delete the app, all data is permanently removed. This isn't just a promise - it's technically impossible for us to access your data. See our <a href="/privacy">Privacy Policy</a> for complete details.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-12">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-12-tray" id="accordion-item-12-button" aria-expanded="false">
+                            <span class="accordion-title-text">What happens to my data if I uninstall the app?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-12-tray" aria-labelledby="accordion-item-12-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>When you uninstall Weeka, all your data is permanently deleted from your device. Since we don't store any data on servers, there's no way to recover it once deleted. This is by design to ensure your complete privacy and data ownership. Make sure to export any important schedules as PDFs before uninstalling if you want to keep them.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-13">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-13-tray" id="accordion-item-13-button" aria-expanded="false">
+                            <span class="accordion-title-text">What age rating does Weeka have?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-13-tray" aria-labelledby="accordion-item-13-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Weeka is rated 4+ on the App Store, meaning it's suitable for all ages and contains no objectionable content. The app is designed to be family-friendly and safe for children to view and interact with under parental guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
 
         <div class="faq-category">
@@ -120,28 +346,53 @@ scripts:
                 <h2 class="category-title">Pricing & Support</h2>
             </div>
             
-            <div class="faq-item">
-                <h3 class="faq-question">Is Weeka free to use?</h3>
-                <p class="faq-answer">Yes! Weeka is currently provided completely free of charge. All features including weekly planning, printing, and themes are available at no cost. We may introduce optional paid features in future versions, but existing users will be notified of any changes through App Store update notes.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h3 class="faq-question">How do I get support if I have issues?</h3>
-                <p class="faq-answer">We provide technical support on a best-effort basis through two channels: You can email us at <a href="mailto:support@weeka.app">support@weeka.app</a> or create a ticket on our <a href="https://github.com/Weeka-app/issues" target="_blank">GitHub Issues page</a>. GitHub is preferred for bug reports and feature requests as it allows us to track and prioritize issues more effectively. While we strive to address all issues promptly, please understand that Weeka is maintained by an independent developer.</p>
-            </div>
-        </div>
-
-        <div class="highlight-box">
-            <h3>Still Have Questions?</h3>
-            <p>We're here to help! If you couldn't find the answer you're looking for, please reach out to us:</p>
-            <p style="margin-top: 16px;">📧 Email: <a href="mailto:support@weeka.app" style="color: #667eea; text-decoration: none; font-weight: 500;">support@weeka.app</a><br>
-            🐛 Report Issues: <a href="https://github.com/Weeka-app/issues" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 500;">GitHub Issues</a></p>
-            <div class="badge-container">
-                <span class="feature-badge">Zero Data Collection</span>
-                <span class="feature-badge">100% Local Storage</span>
-                <span class="feature-badge">Free Forever</span>
-                <span class="feature-badge">4+ Age Rating</span>
-            </div>
+            <ul class="faq-list">
+                <li class="accordion-item" data-accordion-item="accordion-item-14">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-14-tray" id="accordion-item-14-button" aria-expanded="false">
+                            <span class="accordion-title-text">Is Weeka free to use?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-14-tray" aria-labelledby="accordion-item-14-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>Yes! Weeka is currently provided completely free of charge. All features including weekly planning, printing, and themes are available at no cost. We may introduce optional paid features in future versions, but existing users will be notified of any changes through App Store update notes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="accordion-item" data-accordion-item="accordion-item-15">
+                    <h3 class="accordion-title">
+                        <button class="accordion-button" data-accordion-trigger aria-controls="accordion-item-15-tray" id="accordion-item-15-button" aria-expanded="false">
+                            <span class="accordion-title-text">How do I get support if I have issues?</span>
+                            <span class="accordion-icon" data-accordion-icon>
+                                <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+                                    <polyline data-accordion-icon-shape stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" points="15 1.13 8.5 7.72 2 1.13">
+                                        <animate data-accordion-animate="expand" attributeName="points" values="15 1.13 8.5 7.72 2 1.13;15.85 4.42 8.5 4.42 1.15 4.42;15 7.72 8.5 1.13 2 7.72" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.12, 0, 0.38, 0;0.2, 1, 0.68, 1"></animate>
+                                        <animate data-accordion-animate="collapse" attributeName="points" values="15 7.72 8.5 1.13 2 7.72;15.85 4.42 8.5 4.42 1.15 4.42;15 1.13 8.5 7.72 2 1.13" dur="320ms" begin="indefinite" fill="freeze" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2, 0, 0.68, 0;0.2, 1, 0.68, 1"></animate>
+                                    </polyline>
+                                </svg>
+                            </span>
+                        </button>
+                    </h3>
+                    <div id="accordion-item-15-tray" aria-labelledby="accordion-item-15-button" class="accordion-tray" data-accordion-tray>
+                        <div class="accordion-content" data-accordion-content>
+                            <div class="accordion-content-paragraph">
+                                <p>If you have any questions, feedback, or run into any issues while using our app, feel free to reach out to us at <a href="mailto:support@weeka.app" style="color: #667eea; text-decoration: none; font-weight: 500;">support@weeka.app</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
