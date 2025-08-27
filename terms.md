@@ -376,7 +376,7 @@ scripts:
         </div>
 
         <div style="text-align: center; margin-top: 48px; padding-top: 32px; border-top: 1px solid #e5e7eb;">
-            <p style="color: #9ca3af; font-size: 13px;">
+            <p style="color #9ca3af; font-size: 13px;">
                 Document Version: 1.0<br>
                 Last Review: Aug 2025
             </p>
@@ -392,4 +392,4 @@ scripts:
     if (isAppView) {
         document.body.classList.add('app-view');
     }
-</script>
+</script>:
