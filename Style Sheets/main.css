@@ -360,10 +360,11 @@ body {
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 200px 200px 200px;
+    grid-template-columns: 1fr repeat(3, 200px);
     gap: 48px;
     margin-bottom: 60px;
     align-items: start;
+    justify-content: space-between;
 }
 
 .footer-logo {
