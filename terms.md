@@ -4,15 +4,15 @@ title: Terms of Service - Weeka
 description: Terms of Service for Weeka - Visual Weekly Planner Application
 additional_css:
   - terms.css
+  - hero.css
 scripts:
   - script.js
 ---
 
-<section class="legal-hero">
-    <div class="container">
-        <h1>TERMS OF SERVICE</h1>
-        <p class="legal-subtitle">WEEKA APPLICATION</p>
-        <p class="legal-date">Effective Date: January 2025<br>Last Updated: January 2025</p>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Terms of Service</h1>
+        <p class="hero-subtitle">WEEKA APPLICATION<br>Effective Date: Aug 2025<br>Last Updated: Aug 2025</p>
     </div>
 </section>
 
@@ -22,7 +22,7 @@ scripts:
             <div class="article-header">
                 <h2 class="article-title">Article I: Acceptance of Terms</h2>
             </div>
-            
+
             <div class="section">
                 <h3 class="section-title">Section 1.1 - Agreement Formation</h3>
                 <p>By downloading, installing, or using Weeka ("the Application"), you enter into a binding agreement with these Terms of Service ("Terms"). If you disagree with any part of these Terms, your sole remedy is to not use Weeka.</p>
@@ -353,7 +353,7 @@ scripts:
                 <h4>Developer Contact</h4>
                 <div class="contact-info">
                     <span><strong>Support Email:</strong> <a href="mailto:support@weeka.app">support@weeka.app</a></span>
-                    <span><strong>Issue Tracking:</strong> <a href="https://github.com/Weeka-app/issues/issues" target="_blank">github.com/weeka-app/issues</a></span>
+                    <span><strong>Issue Tracking:</strong> <a href="https://github.com/weeka-app/issues/issues" target="_blank">github.com/weeka-app/issues</a></span>
                     <span><strong>Website:</strong> <a href="https://www.weeka.app" target="_blank">www.weeka.app</a></span>
                 </div>
             </div>
@@ -376,9 +376,9 @@ scripts:
         </div>
 
         <div style="text-align: center; margin-top: 48px; padding-top: 32px; border-top: 1px solid #e5e7eb;">
-            <p style="color: #9ca3af; font-size: 13px;">
+            <p style="color #9ca3af; font-size: 13px;">
                 Document Version: 1.0<br>
-                Last Review: January 2025
+                Last Review: Aug 2025
             </p>
         </div>
     </div>
@@ -392,4 +392,4 @@ scripts:
     if (isAppView) {
         document.body.classList.add('app-view');
     }
-</script>
+</script>:
