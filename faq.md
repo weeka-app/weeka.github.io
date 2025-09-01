@@ -3,6 +3,7 @@ layout: default
 title: FAQ - Weeka
 description: Frequently asked questions about Weeka - Visual Weekly Planner for Families
 additional_css:
+  - common.css
   - faq.css
   - hero.css
 scripts:

@@ -3,6 +3,7 @@ layout: default
 title: Privacy Policy - Weeka
 description: Privacy Policy for Weeka - Zero-Collection Visual Weekly Planner
 additional_css:
+  - common.css
   - privacy.css
   - hero.css
 scripts:

@@ -3,6 +3,7 @@ layout: default
 title: Open Source Acknowledgments - Weeka
 description: Third-party open source libraries used in Weeka
 additional_css:
+  - common.css
   - oss.css
 scripts:
   - script.js

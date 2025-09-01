@@ -3,6 +3,7 @@ layout: default
 title: Terms of Service - Weeka
 description: Terms of Service for Weeka - Visual Weekly Planner Application
 additional_css:
+  - common.css
   - terms.css
   - hero.css
 scripts:
