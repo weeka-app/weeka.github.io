@@ -8,7 +8,6 @@
 }
 
 .contact-section {
-    /*max-width: 900px;*/
     margin: 0 auto;
     padding: 2rem 0;
 }
@@ -81,7 +80,6 @@
 }
 
 .faq-content .container {
-    /*max-width: 900px;*/
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -120,7 +118,6 @@
 
 /* Contact section styling */
 .contact-info {
-    /*max-width: 900px;*/
     margin: 0 auto;
     text-align: center;
 }

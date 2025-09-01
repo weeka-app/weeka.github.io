@@ -7,10 +7,6 @@
     margin-bottom: 8px;
 }
 
-.faq-content {
-    background: white;
-}
-
 .faq-category {
     margin-bottom: 64px;
 }
@@ -33,6 +29,14 @@
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.faq-content li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 12px;
+    position: relative;
 }
 
 .accordion-item {
@@ -215,14 +219,6 @@
     margin: 0;
 }
 
-.badge-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 20px;
-    justify-content: center;
-}
-
 .feature-badge {
     display: inline-flex;
     align-items: center;
@@ -248,9 +244,6 @@ body.app-view .faq-content {
 }
 
 /* Responsive */
-@media (max-width: 1068px) {
-}
-
 @media (max-width: 734px) {
     .category-title {
         font-size: 20px;

@@ -3,6 +3,7 @@ layout: default
 title: Privacy Policy - Weeka
 description: Privacy Policy for Weeka - Zero-Collection Visual Weekly Planner
 additional_css:
+  - common.css
   - privacy.css
   - hero.css
 scripts:
@@ -41,7 +42,7 @@ scripts:
             
             <div class="section">
                 <h3 class="section-title">Section 2.1 - Categories of Data NOT Collected</h3>
-                <p>Weeka affirmatively does not collect, access, or process:</p>
+                <p>Weeka does not collect, access, or process:</p>
                 
                 <div class="subsection-list">
                     <ul>
@@ -164,91 +165,16 @@ scripts:
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article IV: Security Framework</h2>
+                <h2 class="article-title">Article IV: Third-Party Interactions</h2>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 4.1 - Local Security Measures</h3>
-                <p>Data security is maintained through:</p>
-                <ul>
-                    <li>Application sandboxing per platform specifications</li>
-                    <li>Standard file system permissions</li>
-                    <li>No external attack surface (no server infrastructure)</li>
-                    <li>Logs stored in application's private storage directory</li>
-                </ul>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 4.2 - Security Responsibilities</h3>
-                <p><strong>User Responsibilities:</strong></p>
-                <ul>
-                    <li>Device-level security (passwords, biometric locks)</li>
-                    <li>Physical device security</li>
-                    <li>Backup management (if desired)</li>
-                </ul>
-                
-                <p><strong>Developer Responsibilities:</strong></p>
-                <ul>
-                    <li>Secure coding practices</li>
-                    <li>Regular security updates</li>
-                    <li>Prompt vulnerability patching</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="article">
-            <div class="article-header">
-                <h2 class="article-title">Article V: Legal Compliance</h2>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 5.1 - Regulatory Alignment</h3>
-                <p>Weeka's zero-collection architecture inherently satisfies:</p>
-                
-                <div class="subsection-list">
-                    <ul>
-                        <li>
-                            <strong>GDPR (General Data Protection Regulation)</strong>
-                            No personal data processing occurs
-                        </li>
-                        <li>
-                            <strong>CCPA (California Consumer Privacy Act)</strong>
-                            No personal information sale or disclosure
-                        </li>
-                        <li>
-                            <strong>COPPA (Children's Online Privacy Protection Act)</strong>
-                            No collection from any users
-                        </li>
-                        <li>
-                            <strong>PIPEDA (Personal Information Protection and Electronic Documents Act)</strong>
-                            No personal information handling
-                        </li>
-                        <li>
-                            <strong>International Privacy Laws</strong>
-                            Universal compliance through non-collection
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 5.2 - Legal Basis</h3>
-                <p>No legal basis for processing is required as no processing occurs.</p>
-            </div>
-        </div>
-
-        <div class="article">
-            <div class="article-header">
-                <h2 class="article-title">Article VI: Third-Party Interactions</h2>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 6.1 - No Third-Party Data Sharing</h3>
+                <h3 class="section-title">Section 4.1 - No Third-Party Data Sharing</h3>
                 <p>Weeka has no automatic capability to share data with third parties. No APIs, webhooks, or automatic data transmission protocols exist within the application.</p>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 6.2 - User-Initiated Sharing</h3>
+                <h3 class="section-title">Section 4.2 - User-Initiated Sharing</h3>
                 <p>Users may choose to:</p>
                 <ul>
                     <li>Export data to PDF format for local use or sharing</li>
@@ -259,7 +185,7 @@ scripts:
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 6.3 - Support Communications</h3>
+                <h3 class="section-title">Section 4.3 - Support Communications</h3>
                 <p>If you contact our support team and voluntarily share debug logs:</p>
                 <ul>
                     <li>We use these logs solely to resolve your technical issue</li>
@@ -272,37 +198,16 @@ scripts:
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article VII: Special Provisions</h2>
+                <h2 class="article-title">Article V: Transparency Measures</h2>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 7.1 - Minors</h3>
-                <p>As no data collection occurs, no age verification or parental consent mechanisms are required or implemented.</p>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 7.2 - Sensitive Data Categories</h3>
-                <p>No special categories of personal data (health, biometric, racial/ethnic origin, etc.) are collected or processed.</p>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 7.3 - Cross-Border Transfers</h3>
-                <p>No international data transfers occur as no data leaves the user's device.</p>
-            </div>
-        </div>
-
-        <div class="article">
-            <div class="article-header">
-                <h2 class="article-title">Article VIII: Transparency Measures</h2>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 8.1 - Verifiable Privacy</h3>
+                <h3 class="section-title">Section 5.1 - Verifiable Privacy</h3>
                 <p>Source code available at our GitHub repository for independent verification.</p>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 8.2 - No Hidden Processes</h3>
+                <h3 class="section-title">Section 5.2 - No Hidden Processes</h3>
                 <ul>
                     <li>No background processes collecting data</li>
                     <li>No dormant collection capabilities</li>
@@ -313,45 +218,34 @@ scripts:
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article IX: Policy Modifications</h2>
+                <h2 class="article-title">Article VI: Policy Modifications</h2>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 9.1 - Amendment Procedure</h3>
-                <p>Updates to this policy will be reflected in the "Last Updated" date. Substantial changes to the zero-collection principle would require a new application version and explicit user acceptance through app store update mechanisms.</p>
+                <h3 class="section-title">Section 6.1 - Amendment Procedure</h3>
+                <p>Updates to this policy will be reflected in the "Last Updated" date.</p>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 9.2 - Notification Limitations</h3>
+                <h3 class="section-title">Section 6.2 - Notification Limitations</h3>
                 <p>As we possess no user contact information, policy updates are communicated through app store update notes and this document.</p>
             </div>
         </div>
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article X: Dispute Resolution and Governing Law</h2>
+                <h2 class="article-title">Article VII: Dispute Resolution</h2>
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 10.1 - Governing Law</h3>
-                <p>As Weeka collects no personal data and operates entirely on user devices, privacy disputes are technically prevented. For any policy interpretations, this agreement shall be governed by the user's local jurisdiction, providing maximum legal protection under their own country's privacy laws.</p>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 10.2 - Dispute Resolution</h3>
-                <p>Given our zero-collection architecture:</p>
-                <ul>
-                    <li>No privacy violations can occur as no data exists to be violated</li>
-                    <li>Any concerns are resolved through direct communication via email</li>
-                    <li>Users retain all rights under their local consumer protection laws</li>
-                    <li>Disputes, if any, shall be resolved through good faith dialogue</li>
-                </ul>
+                <h3 class="section-title">Section 7.1 - Informal Resolution</h3>
+                <p>Before pursuing any formal proceedings, you agree to attempt resolution through direct communication via support@weeka.app.</p>
             </div>
         </div>
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article XI: Contact Information</h2>
+                <h2 class="article-title">Article VIII: Contact Information</h2>
             </div>
             
             <div class="contact-card">
@@ -364,14 +258,14 @@ scripts:
                     <span>Website: <a href="https://www.weeka.app" target="_blank">www.weeka.app</a></span>
                 </div>
                 <p style="margin-top: 16px; font-style: italic; font-size: 14px;">
-                    Note: We operate globally as an independent developer. We cannot access, retrieve, or provide user data as it exists exclusively on user devices.
+                    Note: We operate as an independent developer. We cannot access, retrieve, or provide user data as it exists exclusively on user devices.
                 </p>
             </div>
         </div>
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article XII: Severability</h2>
+                <h2 class="article-title">Article IX: Severability</h2>
             </div>
             
             <div class="section">
@@ -381,23 +275,11 @@ scripts:
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article XIII: Entire Agreement</h2>
+                <h2 class="article-title">Article X: Entire Agreement</h2>
             </div>
             
             <div class="section">
                 <p>This Privacy Policy constitutes the entire agreement between users and Weeka regarding privacy practices and supersedes all prior or contemporaneous understandings.</p>
-            </div>
-        </div>
-
-        <div class="certification-box">
-            <h3>PRIVACY CERTIFICATION STATEMENT</h3>
-            <p>Weeka implements Privacy by Design principles at the architectural level. Our zero-collection model represents the gold standard in privacy protection—not through promises or policies, but through technical impossibility of privacy violation.</p>
-            <div style="margin-top: 20px;">
-                <span class="privacy-badge">Zero Data Collection</span>
-                <span class="privacy-badge">100% Local Storage</span>
-                <span class="privacy-badge">Open Source</span>
-                <span class="privacy-badge">GDPR Compliant</span>
-                <span class="privacy-badge">CCPA Compliant</span>
             </div>
         </div>
 
@@ -406,10 +288,6 @@ scripts:
                 <strong>ATTESTATION</strong><br>
                 By using Weeka, you acknowledge that you have read, understood, and agree to this Privacy Policy.<br>
                 The absence of data collection represents our highest commitment to user privacy.
-            </p>
-            <p style="color: #9ca3af; font-size: 13px; margin-top: 24px;">
-                Document Version: 1.0<br>
-                Privacy Framework: Designed to exceed GDPR, CCPA, and international privacy standards
             </p>
         </div>
     </div>
