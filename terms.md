@@ -25,17 +25,17 @@ scripts:
 
             <div class="section">
                 <h3 class="section-title">Section 1.1 - Agreement Formation</h3>
-                <p>By downloading, installing, or using Weeka ("the Application"), you enter into a binding agreement with these Terms of Service ("Terms"). If you disagree with any part of these Terms, your sole remedy is to not use Weeka.</p>
+                <p>By downloading, installing, or using Weeka ("the Application"), you enter into a binding agreement under these Terms of Service ("Terms") with the Developer. If you disagree with any part of these Terms, do not use Weeka.</p>
             </div>
             
             <div class="section">
                 <h3 class="section-title">Section 1.2 - Capacity to Accept</h3>
-                <p>You represent that you are at least 4 years of age and have the legal capacity to enter into this agreement in your jurisdiction. If you are under 18, you represent that you have parental or guardian consent to use the Application.</p>
+                <p>You represent that you have the legal capacity to enter into this agreement in your jurisdiction. If a person using the app is under 18, parental or guardian consent to use the Application is necessary.</p>
             </div>
             
             <div class="section">
                 <h3 class="section-title">Section 1.3 - Integration with Privacy Policy</h3>
-                <p>Our <a href="/privacy">Privacy Policy</a> is incorporated by reference into these Terms. Together, they constitute the complete agreement between you and the developer regarding Weeka.</p>
+                <p>Our <a href="/privacy">Privacy Policy</a> is incorporated by reference into these Terms. Together, they constitute the complete agreement between you and the Developer regarding Weeka.</p>
             </div>
         </div>
 
@@ -51,7 +51,7 @@ scripts:
                     <li>Install and use Weeka on devices you own or control</li>
                     <li>Create, store, and manage personal event data locally on your device</li>
                     <li>Export your data as PDF for printing or sharing via iOS share sheet</li>
-                    <li>Share one week of events in PDF format through standard iOS sharing mechanisms</li>
+                    <li>Share activities in PDF format through standard iOS sharing mechanisms</li>
                 </ul>
             </div>
             
@@ -61,7 +61,7 @@ scripts:
                 <ul>
                     <li>Reverse engineer, decompile, or disassemble the Application</li>
                     <li>Modify, adapt, or create derivative works of the Application</li>
-                    <li>Remove, alter, or obscure any proprietary notices</li>
+                    <li>Remove, alter, or obscure any proprietary notices, if applicable</li>
                     <li>Use the Application for any illegal or unauthorized purpose</li>
                     <li>Attempt to circumvent any technical limitations</li>
                     <li>Redistribute, sell, rent, lease, or sublicense the Application</li>
@@ -70,7 +70,7 @@ scripts:
             </div>
             
             <div class="section">
-                <h3 class="section-title">Section 2.3 - Free Application</h3>
+                <h3 class="section-title">Section 2.3 - Payments</h3>
                 <p>Weeka is currently provided free of charge. We reserve the right to introduce paid features or change the pricing model in future versions, though existing users will be notified of any such changes through App Store update notes.</p>
             </div>
         </div>
@@ -90,8 +90,9 @@ scripts:
                 <p>You are solely responsible for:</p>
                 <ul>
                     <li>The accuracy and legality of data you input</li>
+                    <li>Any consents necessary for using/storing/distributing of personal data of other personal data subjects</li>
                     <li>Backing up your data (the Application provides export functionality)</li>
-                    <li>Any consequences of data loss due to device failure, app deletion, or other causes</li>
+                    <li>Any consequences of data loss due to device failure, technical issues, app deletion, or other causes</li>
                     <li>Content you choose to share via PDF export through iOS share sheet</li>
                     <li>Ensuring you have the right to share any information contained in exported PDFs</li>
                 </ul>
@@ -99,7 +100,7 @@ scripts:
             
             <div class="section">
                 <h3 class="section-title">Section 3.3 - No Data Recovery</h3>
-                <p>As a local-first application with no cloud infrastructure, we cannot recover lost data under any circumstances. Uninstalling Weeka will permanently delete all associated data.</p>
+                <p>As a local-first application with no cloud infrastructure, we cannot recover lost data under any circumstances. This also applies to instances of data loss due to device failure or other technical issues. Uninstalling Weeka will permanently delete all associated data.</p>
             </div>
             
             <div class="section">
@@ -110,7 +111,7 @@ scripts:
                     <li>Share these PDFs using iOS's standard share sheet</li>
                     <li>Print PDFs directly from your device</li>
                 </ul>
-                <p>Once you share a PDF outside the Application, we have no control over how recipients use, store, or further distribute that information.</p>
+                <p>Please note that once you share a PDF outside the Application, you have the sole responsibility how recipients use, store, or further distribute that information.</p>
             </div>
         </div>
 
@@ -121,7 +122,7 @@ scripts:
             
             <div class="section">
                 <h3 class="section-title">Section 4.1 - Application Ownership</h3>
-                <p>Weeka, including its code, design, functionality, and all associated intellectual property rights, remains the exclusive property of the developer. These Terms grant you only a limited license to use the Application.</p>
+                <p>Weeka, including its code, design, functionality, and all associated intellectual property rights, remains the exclusive property of the Developer. These Terms grant you only a limited license to use the Application.</p>
             </div>
             
             <div class="section">
@@ -208,12 +209,12 @@ scripts:
             
             <div class="section">
                 <h3 class="section-title">Section 7.2 - Independent Developer Limitation</h3>
-                <p>You acknowledge that Weeka is developed and maintained by an independent developer, not a corporation, which inherently limits resources for support, updates, and liability coverage.</p>
+                <p>You acknowledge that Weeka is developed and maintained by an independent Developer, not a corporation, which inherently limits resources for support, updates, and liability coverage.</p>
             </div>
             
             <div class="section">
                 <h3 class="section-title">Section 7.3 - Indemnification</h3>
-                <p>You agree to indemnify and hold harmless the developer from any claims arising from:</p>
+                <p>You agree to indemnify and hold harmless the Developer from any claims arising from:</p>
                 <ul>
                     <li>Your use or misuse of the Application</li>
                     <li>Your violation of these Terms</li>
@@ -260,17 +261,7 @@ scripts:
             
             <div class="section">
                 <h3 class="section-title">Section 9.1 - Informal Resolution</h3>
-                <p>Before pursuing formal proceedings, you agree to attempt resolution through direct communication via support@weeka.app.</p>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 9.2 - Governing Law</h3>
-                <p>These Terms are governed by the laws of the user's local jurisdiction, reflecting our commitment to providing users with their strongest available consumer protections.</p>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 9.3 - Limitation Period</h3>
-                <p>Any claim related to these Terms or the Application must be brought within one (1) year after the cause of action arises.</p>
+                <p>Before pursuing any formal proceedings, you agree to attempt resolution through direct communication via support@weeka.app.</p>
             </div>
         </div>
 
@@ -278,21 +269,8 @@ scripts:
             <div class="article-header">
                 <h2 class="article-title">Article X: App Store Provisions</h2>
             </div>
-            
             <div class="section">
-                <h3 class="section-title">Section 10.1 - Apple App Store Requirements</h3>
-                <p>You acknowledge and agree that:</p>
-                <ul>
-                    <li>These Terms are between you and the developer, not Apple Inc.</li>
-                    <li>Apple has no obligation to provide maintenance or support for Weeka</li>
-                    <li>Apple is not responsible for any claims regarding Weeka</li>
-                    <li>In case of any third-party claim that Weeka infringes intellectual property rights, the developer, not Apple, is responsible for investigation and defense</li>
-                    <li>Apple and its subsidiaries are third-party beneficiaries of these Terms</li>
-                </ul>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 10.2 - App Store Terms</h3>
+                <h3 class="section-title">Section 10.1 - App Store Terms</h3>
                 <p>Your use of Weeka must comply with the Apple App Store Terms of Service and any applicable usage rules.</p>
             </div>
         </div>
@@ -304,7 +282,7 @@ scripts:
             
             <div class="section">
                 <h3 class="section-title">Section 11.1 - Entire Agreement</h3>
-                <p>These Terms and the Privacy Policy constitute the entire agreement between you and the developer regarding Weeka.</p>
+                <p>These Terms and the Privacy Policy constitute the entire agreement between you and the Developer regarding Weeka.</p>
             </div>
             
             <div class="section">
@@ -330,17 +308,12 @@ scripts:
 
         <div class="article">
             <div class="article-header">
-                <h2 class="article-title">Article XII: Accessibility and Compliance</h2>
+                <h2 class="article-title">Article XII: Accessibility</h2>
             </div>
             
             <div class="section">
                 <h3 class="section-title">Section 12.1 - Age Rating</h3>
                 <p>Weeka is rated 4+ on the App Store, containing no objectionable content.</p>
-            </div>
-            
-            <div class="section">
-                <h3 class="section-title">Section 12.2 - Export Compliance</h3>
-                <p>You agree to comply with all applicable export and re-export restrictions and regulations.</p>
             </div>
         </div>
 
@@ -372,7 +345,7 @@ scripts:
 
         <div class="warning-box" style="margin-top: 48px;">
             <h4>INDEPENDENT DEVELOPER NOTICE</h4>
-            <p>Weeka is independently developed and maintained by an individual developer. While we strive for excellence, please understand the inherent limitations of independent software development. Your support and understanding are appreciated.</p>
+            <p>Weeka is independently developed and maintained by an individual Developer. While we strive for excellence, please understand the inherent limitations of independent software development. Your support and understanding are appreciated.</p>
         </div>
 
         <div style="text-align: center; margin-top: 48px; padding-top: 32px; border-top: 1px solid #e5e7eb;">
