@@ -7,6 +7,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const computedStyle = window.getComputedStyle(heroImage);
         originalTopPadding = parseInt(computedStyle.paddingTop,10);
     }
+
+    // Hide navigation when ?app=true parameter is present
+    const urlParams = new URLSearchParams(window.location.search);
+    const isAppMode = urlParams.get('app') === 'true';
+
+    if (isAppMode) {
+        const nav = document.querySelector('.nav');
+        if (nav) {
+            nav.style.display = 'none';
+        }
+    }
 });
 
 // Parallax effect for hero image (moves up and scales down on scroll)
